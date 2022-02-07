@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Add New Charity</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+    <div>
+        <form method="post">
+            {{#charity}}
+            <input type="number" name="id" placeholder="Id"/>
+            <input type="text" name="name" placeholder="Charity name"/>
+            <input type="text" name="description" placeholder="Description"/>
+            <button type="submit">Add</button>
+            {{/charity}}
+        </form>
+    </div>
+</body>
+</html>
